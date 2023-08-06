@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym-Fit</title>
+
+    <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  
+  <script src="https://kit.fontawesome.com/f95b53e521.js" crossorigin="anonymous"></script>
+
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    
+    body {
+
+        margin: 0px;
+        padding: 0px;
+        color: rgb(217, 5, 5);
+        font-family: 'Asap Condensed', sans-serif;
+        margin-bottom: -40%;
+    }
+
+    .logo {
+        position: absolute;
+        top: 15px;
+        display: inline-block;
+
+    }
+
+    .logo img {
+        width: 85px;
+    }
+
+    .logo div {
+        text-align: center;
+    }
+
+    .navbar {
+        position: sticky;
+        display: block;
+        width: 70%;
+        margin: 20px auto;
+        background-color: black;
+
+    }
+
+    .search {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline;
+        font-size: 18px;
+    }
+
+    .navbar li a {
+        color: azure;
+        text-decoration: none;
+        padding: 34px;
+    }
+
+    .navbar li a:hover {
+        color: rgba(124, 6, 6, 0.573);
+    }
+
+    .btn {
+        font-family: 'Asap Condensed', sans-serif;
+        margin: 0px 9px;
+        background-color: rgba(48, 4, 4, 0.922);
+        color: azure;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        font-size: 15px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgba(209, 14, 14, 0.804);
+    }
+
+    .container {
+        position: absolute;
+        right: 45px;
+        margin: 113px 113px;
+        padding: 105px 50px;
+        border-radius: 6px;
+        width: 27%;
+    }
+
+    .container button {
+        display: block;
+        width: 23%;
+        margin: auto;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .about{
+        color: rgb(9, 9, 9);
+        font-family: 'Times New Roman';
+    }
+  
+    h1 {
+        font-size: 35px;
+        text-align: left;
+        padding-right: 27px;
+        text-shadow: 4px 2px 1px rgb(249, 249, 249);
+        padding-left: 550px;
+        padding-top: 190px;
+    }
+
+    #features{
+    padding: 7% 15%;
+  }
+
+    #interior {
+        text-align: center;
+        color: white;
+        margin-top: 5%;
+        padding: 30px 50px;
+    }
+
+    h3 {
+        font-family: 'Montserrat';
+        font-size: 3rem;
+        line-height: 1.5;
+        font-weight: 900;
+    }
+
+    .testimonial-image {
+        width: 10%;
+        border-radius: 50%;
+        margin: 20px;
+    }
+    .box-area {
+        background-color: black;
+    }
+    .header{
+        background-color: black;
+        padding: 10px;
+    }
+
+  
+    
+</style>
+
+<body>
+    <section class="header">
+        <div class="box-area">
+        <div class="logo" id="left">
+            <img src="imgs/gym.png" style="height: 85px; width: 140px;">
+        </div>
+
+        <div class="navbar" id="mid">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Offers</a></li>
+            <li><a href="#">Help</a></li>
+        </div>
+        <div class="search">
+            <button class="btn"><a href="proi1login.html" style="color: azure; text-decoration: none;">Login</a></button>
+            <button class="btn"><a href="pro1reg.html" style="color: azure; text-decoration: none;">Sign-up</a></button>
+        </div>
+    </div>
+    </section>
+
+    <section class="content">
+        <style>
+            .content{ 
+                background-image: url("imgs/bg\'.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                padding: 500px 80px;
+                height: 80px;
+                opacity: 90%;
+            }
+        </style>
+        <div class="about">
+            <h1 style="text-align: center;text-shadow: 2px black;padding-top: 5%;padding-left: 10%; padding-bottom: 5%;"><b>
+                “If you want something you've never had,
+                <br><br>you must be willing to do something
+                <br><br>you've never done.”
+            </b>
+           </h1>
+        </div>
+    </section>
+
+
+    <section id="interior">
+        <div id="carouselExampleAutoplaying" class="carousel" data-bs-ride="false" data-bs-interval="1000">
+            <div class="carousel-inner">
+
+                <div class="carousel-item active" style="background-color: rgba(235, 20, 20, 0.611) ;">
+
+                    <h2>Personal Trainers</h2>
+                    <h4>We're sure that one time or another, you've been fascinated at how a trainer facilitates
+                        class and engages learners. Youâ€™ve also most likely observed some of the best qualities of
+                        a good trainer and already somewhat have an idea of what attributes make a trainer great at
+                        their work.</h4>
+                    <img class="testimonial-image"
+                        src="https://th.bing.com/th/id/OIP.6M849z6CnaOsNPeI42ID2wHaE8?w=239&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                        alt="trainer-profile">
+                    <em>Banglore, India</em>
+
+                </div>
+
+                <div class="carousel-item " style="background-color: rgba(246, 10, 10, 0.6) ;">
+
+                    <h2>Spa's</h2>
+                    <h4>A luxurious range of spa and wellness resorts in India are designed to help people de-stress
+                        and find holistic well being. </h4>
+                    <img class="testimonial-image" src="https://th.bing.com/th/id/OIP.oQYw1cixq-AeC6lVNxWKIgHaE7?w=280&h=187&c=7&r=0&o=5&dppid=1.7"alt="trainer-profile">
+                    <em>Himalaya-Ayuerveda Products</em>
+                </div>
+
+                <div class="carousel-item" style="background-color: rgba(235, 14, 14, 0.695) ;">
+
+                    <h2>Cardio</h2>
+                    <h4>Cardio exercise, which is sometimes referred to as aerobic exercise, is any rhythmic
+                        activity that raises your heart rate into your target heart rate zone.</h4>
+                    <img class="testimonial-image"
+                        src="https://th.bing.com/th/id/OIP.HOGWBWXctuiLgfXwmfE69gHaD4?w=322&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                        alt="trainer-profile">
+                    <em>Himalaya-Ayurveda Products</em>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+        </script>
+    
+    <section id="member">
+        <h2 style="text-align: center;"> Want to join ?</h2>
+        <h2 style="text-align: center;"> Want to be a member & start a new Family?</h2>
+    <p style="text-align: center;">Simple and affordable price plans for your fitness.</p>
+
+    <div class="row">
+
+
+      <div class="pricing-column col-lg-4 col-md-6 ">
+        <div class="card" >
+          <div class="card-header">
+
+            <h3 style="color: #710101;">Per Month</h3>
+          </div>
+
+          <div class="card-body">
+            <h2>₹1385</h2>
+            <p>5 Days / week</p>
+            <p>5% Discount on Spa</p>
+            <p>2-3 Days Zumba </p>
+            <button type="button" class="btn btn-outline-dark w-100">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class=" pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3 style="color: #710101;">6 Month</h3>
+          </div>
+          <div class="card-body">
+            <h2>₹7879</h2>
+            <p>6 days / week + 10 days free</p>
+            <p>15% Discounton spa</p>
+            <p>Zumba once a week</p>
+            <button type="button" class="btn btn-outline-dark w-100">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3 style="color: #710101;">1 Year</h3>
+          </div>
+          <div class="card-body">
+            <h2>₹15,000</h2>
+            <p>6 days / week & 25 days free</p>
+            <p>Every month 1 free spa</p>
+            <p>Zumba twice a week & 1 Coreography on any song</p>
+            <button type="button" class="btn btn-outline-dark w-100">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </section>
+
+    <section id="features" style="padding: 7% 15%;">
+        <div class="feature-box col-lg-4"></div>
+    
+        <div class="row">
+
+          <div class="col-lg-4">
+            <h3><i class="fas fa-signal" fa-2x style="color: #ed0707a2;padding: 30px;  padding: 7% 10%;"></i>
+              <br>Progression
+            </h3>
+            <p>Includes a compressive diet, activity intervention programs & lifestyle modifications.</p>
+          </div>
+    
+          <div class="col-lg-4">
+            <h3><i class="fas fa-utensils" fa-2x style="color: #ed07078a;padding: 30px;  padding: 7% 10%;"></i>
+              <br>Nutrition
+            </h3>
+            <p>COver your plate with fruits and vegetables. Nutrition helps to maintai  a healthy body.</p>
+          </div>
+    
+          <div class="col-lg-4">
+            <h3><i class="fa-solid fa-people-group" fa-2x style="color: #ed0707ad;padding: 30px;  padding: 7% 10%;"></i>
+              <br>Community
+            </h3>
+            <p>You are not just joining a gym. You are joining a supportive community of like-minded people who are here to give you the encouragement you need.</p>
+          </div>
+    
+        </div>
+      </section>
+
+      <!-- <footer id="footer">
+
+        <p>© Copyright</p>
+        <i class="fa-brands fa-facebook  fa-2xl" style="color: #fd0d6d;"></i>&puncsp; &puncsp;&puncsp;
+        <i class="fa-brands fa-instagram  fa-2xl" style="color: #fd0872;"></i>&puncsp;&puncsp;&puncsp;
+        <i class="fa-brands fa-twitter  fa-2xl" style="color: #f90667;"></i>&puncsp;&puncsp;&puncsp;
+        <i class="fa-brands fa-linkedin  fa-2xl" style="color: #fb0972;"></i>&puncsp;&puncsp;&puncsp;
+    
+    
+      </footer> -->
+
+      <h2 style="border: 2px solid; background-color: rgba(237, 141, 141, 0.433);">
+        <p class="contact" style="font-size: 25px; text-align: center;">
+            <u>Contact Information</u><br>
+            <ul style="font-size: 25px; text-align: center;">
+                Instagram&nbsp;&nbsp;<i class="fab fa-instagram"  style="color: #ce091c;"></i><br>
+                Facebook&nbsp;&nbsp;<i class="fab fa-facebook" style="color: #ce091c;"></i><br>
+                Twitter&nbsp;&nbsp;<i class="fab fa-twitter" style="color: #ce091c;"></i><br>
+                LinedIn&nbsp;&nbsp;<i class="fab fa-linkedin"tyle="color: #ce091c;"></i><br>
+            </ul>
+        </p>
+      </h2>
+    
+    
+</body>
+</html>`
+
+
